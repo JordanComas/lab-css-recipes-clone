@@ -7,3 +7,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+section > img{
+  height: 850px;
+  width: 100vw;
+}
+
+section > h1{
+  position: absolute;
+  bottom: 400px;
+  margin-left: 400px;
+  color: white;
+  font-size: 70px;
+}
+
+section > p{
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+section > div > img{
+  margin-left: 30vw;
+    height: auto;
+    width: 450px;
+}
+
+section-1 > ul > li{
+  list-style-type: '- ';
+}
+
+section-1 > img{
+  margin-left: 30vw;
+    height: auto;
+    width: 450px;
+}
+div{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ol li {
+  list-style-type: none;
+  counter-increment: step-counter;
+}
+
+ol li:before {
+  content: counter(step-counter) " ) ";
+}
